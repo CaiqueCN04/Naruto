@@ -1,0 +1,22 @@
+h1{
+    color: yellowgreen;
+}
+
+img{
+    width: 200px;
+    animation: naruto 3s ;
+}
+
+@keyframes naruto{
+    to{
+        transform: translateY(0);
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+        width: 300px;
+        transform: rotate(360deg);
+    }
+}
